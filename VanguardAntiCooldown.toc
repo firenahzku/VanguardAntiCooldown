@@ -1,0 +1,5 @@
+## Title: VanguardAntiCooldown
+## Author: Threewords <Vanguard>, Kronos, Twinstar
+## Version: 1.0
+## SavedVariables: VGACConfig
+VanguardAntiCooldown.lua
