@@ -13,3 +13,4 @@
 * Tracks hostile player's gain of some important auras
 * Allows you to automate purging those buffs from said players
 * Synchronizes all the information inside your raid/party
+* Uses a priority system for purging based on importance of the buffs
