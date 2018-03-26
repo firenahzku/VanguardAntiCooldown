@@ -2,59 +2,49 @@ VGAC_BuffInfo = {
 	-- Debugging
 	["Frost Armor"] = {icon = "Interface\\Icons\\Spell_Frost_FrostArmor02", duration = 1800, priority = 0},
 
-	-- Consumables
-	["Speed"] = {icon = "Interface\\Icons\\INV_Potion_19", duration = 15},
-	["Free Action"] = {icon = "Interface\\Icons\\INV_Potion_04", duration = 30},
-	["Living Free Action"] = {icon = "Interface\\Icons\\INV_Potion_07", duration = 5},
-	["Restoration"] = {icon = "Interface\\Icons\\INV_Potion_01", duration = 30},
-	["Invulnerability"] = {icon = "Interface\\Icons\\INV_Potion_62", duration = 6},
-	["Arcane Protection"] = {icon = "Interface\\Icons\\INV_Potion_83", duration = 3600},
-	["Fire Protection"] = {icon = "Interface\\Icons\\INV_Potion_24", duration = 3600},
-	["Frost Protection"] = {icon = "Interface\\Icons\\INV_Potion_20", duration = 3600},
-	["Nature Protection"] = {icon = "Interface\\Icons\\INV_Potion_22", duration = 3600},
-	["Shadow Protection"] = {icon = "Interface\\Icons\\INV_Potion_23", duration = 3600},
+	["Blessing of Protection"] = {icon = "Interface\\Icons\\Spell_Holy_SealOfProtection", duration = 10, priority = 0},
+	["Free Action"] = {icon = "Interface\\Icons\\INV_Potion_04", duration = 30, priority = 0},
+	["Invulnerability"] = {icon = "Interface\\Icons\\INV_Potion_62", duration = 6, priority = 0},
+	["Blessing of Freedom"] = {icon = "Interface\\Icons\\Spell_Holy_SealOfValor", duration = 16, priority = 0},
+	["Living Free Action"] = {icon = "Interface\\Icons\\INV_Potion_07", duration = 5, priority = 0},
 
-	-- Druids
-	["Barkskin"] = {icon = "Interface\\Icons\\Spell_Nature_StoneClawTotem", duration = 15},
-	["Innervate"] = {icon = "Interface\\Icons\\Spell_Nature_Lightning", duration = 20},
-	["Abolish Poison"] = {icon = "Interface\\Icons\\Spell_Nature_NullifyPoison_02", duration = 8},
-	-- ["Nature's Swiftness"] = {icon = "Interface\\Icons\\Spell_Nature_RavenForm", duration = -1},
+	["Power Word: Shield"] = {icon = "Interface\\Icons\\Spell_Holy_PowerWordShield", duration = 30, priority = 1},
+	["Ice Barrier"] = {icon = "Interface\\Icons\\Spell_Ice_Lament", duration = 60, priority = 1},
+	["Sacrifice"] = {icon = "Interface\\Icons\\Spell_Shadow_SacrificialShield", duration = 30, priority = 1},
+	["Fear Ward"] = {icon = "Interface\\Icons\\Spell_Holy_Excorcism", duration = 600, priority = 1},
+	["Mana Shield"] = {icon = "Interface\\Icons\\Spell_Shadow_DetectLesserInvisibility", duration = 60, priority = 1},
 
-	-- Hunters
-	["Rapid Fire"] = {icon = "Interface\\Icons\\Ability_Hunter_RunningShot", duration = 15},
+	["Arcane Power"] = {icon = "Interface\\Icons\\Spell_Nature_Lightning", duration = 15, priority = 2},
+	["Power Infusion"] = {icon = "Interface\\Icons\\Spell_Holy_PowerInfusion", duration = 15, priority = 2},
+	["Rapid Fire"] = {icon = "Interface\\Icons\\Ability_Hunter_RunningShot", duration = 15, priority = 2},
 
-	-- Paladins
-	["Blessing of Freedom"] = {icon = "Interface\\Icons\\Spell_Holy_SealOfValor", duration = 16},
-	["Blessing of Protection"] = {icon = "Interface\\Icons\\Spell_Holy_SealOfProtection", duration = 10},
-	["Blessing of Sacrifice"] = {icon = "Interface\\Icons\\Spell_Holy_SealOfSacrifice", duration = 30},
-	-- ["Divine Favor"] = {icon = "Interface\\Icons\\Spell_Holy_Heal", duration = -1},
+	["Restoration"] = {icon = "Interface\\Icons\\INV_Potion_01", duration = 30, priority = 3},
+	["Arcane Protection"] = {icon = "Interface\\Icons\\INV_Potion_83", duration = 3600, priority = 3},
+	["Fire Protection"] = {icon = "Interface\\Icons\\INV_Potion_24", duration = 3600, priority = 3},
+	["Frost Protection"] = {icon = "Interface\\Icons\\INV_Potion_20", duration = 3600, priority = 3},
+	["Nature Protection"] = {icon = "Interface\\Icons\\INV_Potion_22", duration = 3600, priority = 3},
+	["Shadow Protection"] = {icon = "Interface\\Icons\\INV_Potion_23", duration = 3600, priority = 3},
 
-	-- Priests
-	["Fear Ward"] = {icon = "Interface\\Icons\\Spell_Holy_Excorcism", duration = 600},
-	["Power Word: Shield"] = {icon = "Interface\\Icons\\Spell_Holy_PowerWordShield", duration = 30},
-	["Power Infusion"] = {icon = "Interface\\Icons\\Spell_Holy_PowerInfusion", duration = 15},
+	["Speed"] = {icon = "Interface\\Icons\\INV_Potion_19", duration = 15, priority = 4},
+	["Barkskin"] = {icon = "Interface\\Icons\\Spell_Nature_StoneClawTotem", duration = 15, priority = 4},
+	["Innervate"] = {icon = "Interface\\Icons\\Spell_Nature_Lightning", duration = 20, priority = 4},
+	["Abolish Poison"] = {icon = "Interface\\Icons\\Spell_Nature_NullifyPoison_02", duration = 8, priority = 4},
+	["Blessing of Sacrifice"] = {icon = "Interface\\Icons\\Spell_Holy_SealOfSacrifice", duration = 30, priority = 4},
+	["Clearcasting"] = {icon = "Interface\\Icons\\Spell_Shadow_ManaBurn", duration = 15, priority = 4},
 
-	-- Mages
-	["Arcane Power"] = {icon = "Interface\\Icons\\Spell_Nature_Lightning", duration = 15},
-	-- ["Presence of Mind"] = {icon = "Interface\\Icons\\Spell_Nature_EnchantArmor", duration = -1},
-	-- ["Combustion"] = {icon = "Interface\\Icons\\Spell_Fire_SealOfFire", duration = -1},
-	["Ice Barrier"] = {icon = "Interface\\Icons\\Spell_Ice_Lament", duration = 60},
-	["Mana Shield"] = {icon = "Interface\\Icons\\Spell_Shadow_DetectLesserInvisibility", duration = 60},
-	["Clearcasting"] = {icon = "Interface\\Icons\\Spell_Shadow_ManaBurn", duration = 15},
-
-	-- Warlocks
-	["Sacrifice"] = {icon = "Interface\\Icons\\Spell_Shadow_SacrificialShield", duration = 30},
-	["Spellstone"] = {icon = "Interface\\Icons\\INV_Misc_Gem_Sapphire_01", duration = 60},
-	["Greater Spellstone"] = {icon = "Interface\\Icons\\INV_Misc_Gem_Sapphire_01", duration = 60},
-	["Major Spellstone"] = {icon = "Interface\\Icons\\INV_Misc_Gem_Sapphire_01", duration = 60},
+	-- ["Nature's Swiftness"] = {icon = "Interface\\Icons\\Spell_Nature_RavenForm", duration = -1, priority = -1},
+	-- ["Divine Favor"] = {icon = "Interface\\Icons\\Spell_Holy_Heal", duration = -1, priority = -1},
+	-- ["Presence of Mind"] = {icon = "Interface\\Icons\\Spell_Nature_EnchantArmor", duration = -1, priority = -1},
+	-- ["Combustion"] = {icon = "Interface\\Icons\\Spell_Fire_SealOfFire", duration = -1, priority = -1},
 }
-VGAC_defaultConfig = {x = 0, y = 0, isUnlocked = true, scale = 1.0, defaultHeight = 50, defaultWidth = 50, defaultTextSize = 16, numSlots = 20}
+VGAC_defaultConfig = {x = 0, y = 0, isUnlocked = true, scale = 1.0, defaultHeight = 50, defaultWidth = 50, defaultTextSize = 16, numSlots = 15}
 
 VGAC_UpdateInterval = 0.05
 VGAC_LastUpdate = GetTime()
 VGAC_ActiveBuffs = nil
 VGAC_NumActiveBuffs = 0
 VGAC_GroupLevel = 0 -- Not in a group: 0; In a party: 1; In a raid group: 2
+VGAC_RecentTargets = {}
 
 VanguardAntiCooldownFrame = CreateFrame("Frame", nil, UIParent)
 VanguardAntiCooldownFrame:RegisterEvent("VARIABLES_LOADED")
@@ -157,14 +147,70 @@ function VGAC_InitializeBars()
 	end
 end
 
-function VGAC_AddBuff(buffOwner, auraName, duration, castBefore)
+function VGAC_PurgeHostile()
+	_,playerClass = UnitClass("player")
+	local spellName = "None"
+	if (playerClass == "PRIEST") then
+		spellName = "Dispel Magic"
+	elseif (playerClass == "SHAMAN") then
+		spellName = "Purge"
+	else
+		return
+	end
+	VGAC_PurgeTargets = {}
+	VGAC_BucketSize = {}
+	local s = 100
+	local e = -100
+	-- Find all candidate targets
+	for buffOwner, val in pairs(VGAC_ActiveBuffs) do
+		if (VGAC_RecentTargets[buffOwner] == nil) then
+			local minPriority = 100
+			for auraName, entry in pairs(VGAC_ActiveBuffs[buffOwner]) do
+				if (entry.priority < minPriority) then minPriority = entry.priority end
+			end
+			if (minPriority < 100) then
+				if (VGAC_BucketSize[minPriority] == nil) then
+					VGAC_BucketSize[minPriority] = 0
+					VGAC_PurgeTargets[minPriority] = {}
+				end
+				local n = VGAC_BucketSize[minPriority] + 1
+				VGAC_PurgeTargets[minPriority][n] = buffOwner
+				VGAC_BucketSize[minPriority] = n
+				if (s > minPriority) then s = minPriority end
+				if (e < minPriority) then e = minPriority end
+			end
+		end
+	end
+	-- Try to purge in order of priority
+	-- local scStatus = GetCVar("autoSelfCast")
+	-- SetCVar("autoSelfCast", 0)
+	for i = s, e do
+		if (VGAC_PurgeTargets[i] ~= nil) then
+			for j = 1, VGAC_BucketSize[i] do
+				local buffOwner = VGAC_PurgeTargets[i][j]
+				TargetByName(buffOwner, true)
+				if (UnitExists("target") and UnitIsEnemy("player", "target") and UnitName("target") == buffOwner) then
+					if (CheckInteractDistance("target", 4)) then
+						CastSpellByName(spellName)
+						VGAC_RecentTargets[buffOwner] = GetTime()
+						return
+					end
+				end
+			end
+		end
+	end
+	-- SetCVar("autoSelfCast", scStatus)
+end
+
+function VGAC_AddBuff(buffOwner, auraName, castBefore)
+	if (VGAC_BuffInfo[auraName] == nil) then return end
 	local skipUpdate = false
 	if (VGAC_ActiveBuffs == nil) then VGAC_ActiveBuffs = {} end
 	if (VGAC_ActiveBuffs[buffOwner] == nil) then VGAC_ActiveBuffs[buffOwner] = {} end
 	if (VGAC_ActiveBuffs[buffOwner][auraName] ~= nil) then
 		skipUpdate = true -- We already have this buff tracked, and it only needs its duration refreshed
 	end
-	VGAC_ActiveBuffs[buffOwner][auraName] = {texturePath = auraTexture, duration = tonumber(duration), castAt = GetTime() - tonumber(castBefore)}
+	VGAC_ActiveBuffs[buffOwner][auraName] = {duration = VGAC_BuffInfo[auraName].duration, castAt = GetTime() - tonumber(castBefore), priority = VGAC_BuffInfo[auraName].priority}
 
 	if (skipUpdate == false) then -- the buff is new and your bars need updating
 		VGAC_UpdateTrackedBuffs()
@@ -187,6 +233,7 @@ function VGAC_UpdateTrackedBuffs()
 			VGAC_Bars.BuffFrames[n].timer:SetText(VGAC_Bars.BuffFrames[i].timer:GetText())
 			VGAC_Bars.BuffFrames[n].buffOwner:SetText(buffOwner)
 			VGAC_Bars.BuffFrames[n]:Show()
+			if (VGAC_BuffCheck[buffOwner] == nil) then VGAC_BuffCheck[buffOwner] = {} end
 			VGAC_BuffCheck[buffOwner][auraName] = true
 		end
 	end
@@ -229,26 +276,30 @@ function VGAC_OnEvent()
 
 	elseif (event == "CHAT_MSG_SPELL_PERIODIC_HOSTILEPLAYER_BUFFS") then
 		for buffOwner, auraName in string.gfind(arg1, "(.*) gains (.*).") do
-			if (GetNumRaidMembers() > 0 or GetNumPartyMembers() > 0) then
-				local zone = GetZoneText()
-				local channel = "RAID"
-				if (zone == "Warsong Gulch" or zone == "Arathi Basin" or zone == "Alterac Valley") then channel = "BATTLEGROUND" end
-				SendAddonMessage("VGAC_NewBuff", buffOwner.."!"..auraName.."!"..VGAC_BuffInfo[auraName].duration..(0), channel)
-			else
-				VGAC_AddBuff(buffOwner, auraName, VGAC_BuffInfo[auraName].duration, 0)
+			if (VGAC_BuffInfo[auraName] ~= nil) then
+				if (GetNumRaidMembers() > 0 or GetNumPartyMembers() > 0) then
+					local zone = GetZoneText()
+					local channel = "RAID"
+					if (zone == "Warsong Gulch" or zone == "Arathi Basin" or zone == "Alterac Valley") then channel = "BATTLEGROUND" end
+					SendAddonMessage("VGAC_NewBuff", buffOwner.."!"..auraName.."!"..(0), channel)
+				else
+					VGAC_AddBuff(buffOwner, auraName, 0)
+				end
 			end
 		end
 
 	elseif (event == "CHAT_MSG_SPELL_BREAK_AURA") then
 		for buffOwner, auraName in string.gfind(arg1, "(.*)'s (.*) is removed.") do
-			if (GetNumRaidMembers() > 0 or GetNumPartyMembers() > 0) then
-				local zone = GetZoneText()
-				local channel = "RAID"
-				if (zone == "Warsong Gulch" or zone == "Arathi Basin" or zone == "Alterac Valley") then channel = "BATTLEGROUND" end
-				SendAddonMessage("VGAC_RemoveBuff", buffOwner.."!"..auraName, channel)
-			else
-				if (VGAC_ActiveBuffs ~= nil and VGAC_ActiveBuffs[buffOwner] ~= nil) then
-					VGAC_ActiveBuffs[buffOwner][auraName] = nil
+			if (VGAC_BuffInfo[auraName] ~= nil) then
+				if (GetNumRaidMembers() > 0 or GetNumPartyMembers() > 0) then
+					local zone = GetZoneText()
+					local channel = "RAID"
+					if (zone == "Warsong Gulch" or zone == "Arathi Basin" or zone == "Alterac Valley") then channel = "BATTLEGROUND" end
+					SendAddonMessage("VGAC_RemoveBuff", buffOwner.."!"..auraName, channel)
+				else
+					if (VGAC_ActiveBuffs ~= nil and VGAC_ActiveBuffs[buffOwner] ~= nil) then
+						VGAC_ActiveBuffs[buffOwner][auraName] = nil
+					end
 				end
 			end
 		end
@@ -273,8 +324,8 @@ function VGAC_OnEvent()
 		end
 
 	elseif (event == "CHAT_MSG_ADDON" and arg1 == "VGAC_NewBuff") then
-		for buffOwner, auraName, duration, castBefore in string.gfind(arg2, "(.+)!(.+)!(.+)!(.+)") do
-			VGAC_AddBuff(buffOwner, auraName, duration, castBefore)
+		for buffOwner, auraName, castBefore in string.gfind(arg2, "(.+)!(.+)!(.+)") do
+			VGAC_AddBuff(buffOwner, auraName, castBefore)
 		end
 
 	elseif (event == "CHAT_MSG_ADDON" and arg1 == "VGAC_RemoveBuff") then
@@ -296,20 +347,21 @@ function VGAC_OnEvent()
 				local zone = GetZoneText()
 				local channel = "RAID"
 				if (zone == "Warsong Gulch" or zone == "Arathi Basin" or zone == "Alterac Valley") then channel = "BATTLEGROUND" end
-				SendAddonMessage("VGAC_HiBob!"..arg2, buffOwner.."!"..auraName.."!"..entry.duration.."!"..(GetTime() - entry.castAt), channel)
+				SendAddonMessage("VGAC_HiBob!"..arg2, buffOwner.."!"..auraName.."!"..(GetTime() - entry.castAt), channel)
 			end
 		end
 
 	elseif (event == "CHAT_MSG_ADDON" and string.find(arg1, "VGAC_HiBob!")) then
 		for recipient in string.gfind(arg1, "VGAC_HiBob!(.*)") do
 			if (recipient == playerName) then -- our call for buff info sharing was answered
-				for buffOwner, auraName, duration, castBefore in string.gfind(arg2, "(.+)!(.+)!(.+)!(.+)") do
-					VGAC_AddBuff(buffOwner, auraName, duration, castBefore)
+				for buffOwner, auraName, castBefore in string.gfind(arg2, "(.+)!(.+)!(.+)!(.+)") do
+					VGAC_AddBuff(buffOwner, auraName, castBefore)
 				end
 			end
 		end
 
 	elseif (event == "PARTY_MEMBERS_CHANGED" or event == "RAID_ROSTER_UPDATE") then
+		local oldGroupLevel = VGAC_GroupLevel
 		local zone = GetZoneText()
 		local channel = "RAID"
 		if (zone == "Warsong Gulch" or zone == "Arathi Basin" or zone == "Alterac Valley") then channel = "BATTLEGROUND" end
@@ -318,7 +370,7 @@ function VGAC_OnEvent()
 			if (VGAC_ActiveBuffs ~= nil) then
 				for buffOwner, val in pairs(VGAC_ActiveBuffs) do
 					for auraName, entry in pairs(VGAC_ActiveBuffs) do
-						SendAddonMessage("VGAC_NewBuff", buffOwner.."!"..auraName.."!"..entry.duration.."!"..(GetTime() - entry.castAt), channel)
+						SendAddonMessage("VGAC_NewBuff", buffOwner.."!"..auraName.."!"..(GetTime() - entry.castAt), channel)
 					end
 				end
 			end
@@ -332,6 +384,12 @@ function VGAC_OnUpdate()
 	local needsCleanup = false
 	if (delta >= VGAC_UpdateInterval) then
 		local playerName = UnitName("player")
+		-- Update targets that should be available for purge again
+		for buffOwner, timestamp in pairs(VGAC_RecentTargets) do
+			if (currentTime - timestamp >= 1.5) then
+				VGAC_RecentTargets[buffOwner] = nil
+			end
+		end
 		-- Update time for ALL buffs that you are aware of
 		if (VGAC_ActiveBuffs ~= nil) then
 			for buffOwner, val in pairs(VGAC_ActiveBuffs) do
