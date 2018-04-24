@@ -2,35 +2,35 @@ VGAC_BuffInfo = {
 	-- Debugging
 	["Frost Armor"] = {icon = "Interface\\Icons\\Spell_Frost_FrostArmor02", duration = 1800, priority = 0},
 
-	["Blessing of Protection"] = {icon = "Interface\\Icons\\Spell_Holy_SealOfProtection", duration = 10, priority = 0},
-	["Free Action"] = {icon = "Interface\\Icons\\INV_Potion_04", duration = 30, priority = 0},
-	["Invulnerability"] = {icon = "Interface\\Icons\\INV_Potion_62", duration = 6, priority = 0},
-	["Blessing of Freedom"] = {icon = "Interface\\Icons\\Spell_Holy_SealOfValor", duration = 16, priority = 0},
-	["Living Free Action"] = {icon = "Interface\\Icons\\INV_Potion_07", duration = 5, priority = 0},
+	["Blessing of Protection"] = {icon = "Interface\\Icons\\Spell_Holy_SealOfProtection", duration = 10, absorbType = nil, priority = 0},
+	["Free Action"] = {icon = "Interface\\Icons\\INV_Potion_04", duration = 30, absorbType = nil, priority = 0},
+	["Invulnerability"] = {icon = "Interface\\Icons\\INV_Potion_62", duration = 6, absorbType = nil, priority = 0},
+	["Blessing of Freedom"] = {icon = "Interface\\Icons\\Spell_Holy_SealOfValor", duration = 16, absorbType = nil, priority = 0},
+	["Living Free Action"] = {icon = "Interface\\Icons\\INV_Potion_07", duration = 5, absorbType = nil, priority = 0},
 
-	["Power Word: Shield"] = {icon = "Interface\\Icons\\Spell_Holy_PowerWordShield", duration = 30, priority = 1},
-	["Ice Barrier"] = {icon = "Interface\\Icons\\Spell_Ice_Lament", duration = 60, priority = 1},
-	["Sacrifice"] = {icon = "Interface\\Icons\\Spell_Shadow_SacrificialShield", duration = 30, priority = 1},
-	["Fear Ward"] = {icon = "Interface\\Icons\\Spell_Holy_Excorcism", duration = 600, priority = 1},
-	["Mana Shield"] = {icon = "Interface\\Icons\\Spell_Shadow_DetectLesserInvisibility", duration = 60, priority = 1},
+	["Power Word: Shield"] = {icon = "Interface\\Icons\\Spell_Holy_PowerWordShield", duration = 30, absorbType = "Physical", priority = 1},
+	["Ice Barrier"] = {icon = "Interface\\Icons\\Spell_Ice_Lament", duration = 60, absorbType = "Physical", priority = 1},
+	["Sacrifice"] = {icon = "Interface\\Icons\\Spell_Shadow_SacrificialShield", duration = 30, absorbType = nil, priority = 1},
+	["Fear Ward"] = {icon = "Interface\\Icons\\Spell_Holy_Excorcism", duration = 600, absorbType = nil, priority = 1},
+	["Mana Shield"] = {icon = "Interface\\Icons\\Spell_Shadow_DetectLesserInvisibility", duration = 60, absorbType = "Physical", priority = 1},
 
-	["Arcane Power"] = {icon = "Interface\\Icons\\Spell_Nature_Lightning", duration = 15, priority = 2},
-	["Power Infusion"] = {icon = "Interface\\Icons\\Spell_Holy_PowerInfusion", duration = 15, priority = 2},
-	["Rapid Fire"] = {icon = "Interface\\Icons\\Ability_Hunter_RunningShot", duration = 15, priority = 2},
+	["Arcane Power"] = {icon = "Interface\\Icons\\Spell_Nature_Lightning", duration = 15, absorbType = nil, priority = 2},
+	["Power Infusion"] = {icon = "Interface\\Icons\\Spell_Holy_PowerInfusion", duration = 15, absorbType = nil, priority = 2},
+	["Rapid Fire"] = {icon = "Interface\\Icons\\Ability_Hunter_RunningShot", duration = 15, absorbType = nil, priority = 2},
 
-	["Restoration"] = {icon = "Interface\\Icons\\INV_Potion_01", duration = 30, priority = 3},
-	["Arcane Protection"] = {icon = "Interface\\Icons\\INV_Potion_83", duration = 3600, priority = 3},
-	["Fire Protection"] = {icon = "Interface\\Icons\\INV_Potion_24", duration = 3600, priority = 3},
-	["Frost Protection"] = {icon = "Interface\\Icons\\INV_Potion_20", duration = 3600, priority = 3},
-	["Nature Protection"] = {icon = "Interface\\Icons\\INV_Potion_22", duration = 3600, priority = 3},
-	["Shadow Protection"] = {icon = "Interface\\Icons\\INV_Potion_23", duration = 3600, priority = 3},
+	["Restoration"] = {icon = "Interface\\Icons\\INV_Potion_01", duration = 30, absorbType = nil, priority = 3},
+	["Arcane Protection"] = {icon = "Interface\\Icons\\INV_Potion_83", duration = 3600, absorbType = "Arcane", priority = 3},
+	["Fire Protection"] = {icon = "Interface\\Icons\\INV_Potion_24", duration = 3600, absorbType = "Fire", priority = 3},
+	["Frost Protection"] = {icon = "Interface\\Icons\\INV_Potion_20", duration = 3600, absorbType = "Frost", priority = 3},
+	["Nature Protection"] = {icon = "Interface\\Icons\\INV_Potion_22", duration = 3600, absorbType = "Nature", priority = 3},
+	["Shadow Protection"] = {icon = "Interface\\Icons\\INV_Potion_23", duration = 3600, absorbType = "Shadow", priority = 3},
 
-	["Speed"] = {icon = "Interface\\Icons\\INV_Potion_19", duration = 15, priority = 4},
-	["Barkskin"] = {icon = "Interface\\Icons\\Spell_Nature_StoneClawTotem", duration = 15, priority = 4},
-	["Innervate"] = {icon = "Interface\\Icons\\Spell_Nature_Lightning", duration = 20, priority = 4},
-	["Abolish Poison"] = {icon = "Interface\\Icons\\Spell_Nature_NullifyPoison_02", duration = 8, priority = 4},
-	["Blessing of Sacrifice"] = {icon = "Interface\\Icons\\Spell_Holy_SealOfSacrifice", duration = 30, priority = 4},
-	["Clearcasting"] = {icon = "Interface\\Icons\\Spell_Shadow_ManaBurn", duration = 15, priority = 4},
+	["Speed"] = {icon = "Interface\\Icons\\INV_Potion_19", duration = 15, absorbType = nil, priority = 4},
+	["Barkskin"] = {icon = "Interface\\Icons\\Spell_Nature_StoneClawTotem", duration = 15, absorbType = nil, priority = 4},
+	["Innervate"] = {icon = "Interface\\Icons\\Spell_Nature_Lightning", duration = 20, absorbType = nil, priority = 4},
+	["Abolish Poison"] = {icon = "Interface\\Icons\\Spell_Nature_NullifyPoison_02", duration = 8, absorbType = nil, priority = 4},
+	["Blessing of Sacrifice"] = {icon = "Interface\\Icons\\Spell_Holy_SealOfSacrifice", duration = 30, absorbType = nil, priority = 4},
+	["Clearcasting"] = {icon = "Interface\\Icons\\Spell_Shadow_ManaBurn", duration = 15, absorbType = nil, priority = 4},
 
 	-- ["Nature's Swiftness"] = {icon = "Interface\\Icons\\Spell_Nature_RavenForm", duration = -1, priority = -1},
 	-- ["Divine Favor"] = {icon = "Interface\\Icons\\Spell_Holy_Heal", duration = -1, priority = -1},
@@ -394,7 +394,11 @@ function VGAC_OnUpdate()
 		if (VGAC_ActiveBuffs ~= nil) then
 			for buffOwner, val in pairs(VGAC_ActiveBuffs) do
 				for auraName, entry in pairs(val) do
-					if (VGAC_ActiveBuffs[buffOwner][auraName].castAt + VGAC_ActiveBuffs[buffOwner][auraName].duration <= currentTime) then
+					local maxDelay = 60
+					if (VGAC_ActiveBuffs[buffOwner][auraName].duration > maxDelay) then
+						maxDelay = VGAC_ActiveBuffs[buffOwner][auraName].duration
+					end
+					if (VGAC_ActiveBuffs[buffOwner][auraName].castAt + maxDelay <= currentTime) then
 						VGAC_ActiveBuffs[buffOwner][auraName] = nil
 					end
 				end
