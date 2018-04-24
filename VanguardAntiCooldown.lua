@@ -395,7 +395,7 @@ function VGAC_OnUpdate()
 			for buffOwner, val in pairs(VGAC_ActiveBuffs) do
 				for auraName, entry in pairs(val) do
 					local maxDelay = 60
-					if (VGAC_ActiveBuffs[buffOwner][auraName].duration > maxDelay) then
+					if (VGAC_ActiveBuffs[buffOwner][auraName].duration < maxDelay) then
 						maxDelay = VGAC_ActiveBuffs[buffOwner][auraName].duration
 					end
 					if (VGAC_ActiveBuffs[buffOwner][auraName].castAt + maxDelay <= currentTime) then
