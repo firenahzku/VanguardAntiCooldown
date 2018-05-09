@@ -161,6 +161,12 @@ function VGAC_PurgeHostile()
 	VGAC_BucketSize = {}
 	local s = 100
 	local e = -100
+	if (VGAC_ActiveBuffs == nil) then
+		if (UnitExists("target")) then
+			CastSpellByName(spellName)
+		end
+		return
+	end
 	-- Find all candidate targets
 	for buffOwner, val in pairs(VGAC_ActiveBuffs) do
 		if (VGAC_RecentTargets[buffOwner] == nil) then
